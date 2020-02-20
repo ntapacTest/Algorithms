@@ -5,9 +5,9 @@ def sort(a,a1,an):
         q=((an-a1)//2)+a1
         inv+=sort(a,a1,q)
         inv+=sort(a,q,an)   
-        print(inv)     
+        # print(inv)     
         inv+=merge(a,a1,an,q)
-        print(inv)
+        # print(inv)
         return inv
     return 0
     
@@ -22,7 +22,6 @@ def merge(a,a1,an,q):
         if(i>=len(l)):
             a[k]=r[j]
             j+=1
-            inv+=1
         elif(j>=len(r)):
             a[k]=l[i]
             i+=1
@@ -37,8 +36,9 @@ def merge(a,a1,an,q):
     return inv
             
 
-a=[12,1,3,6,2,6,8,0,233,64]
-# a=[12,1,3,6]
+# a=[12,1,3,6,2,6,8,0,233,64]
+# a=[12,1,3,6,1,5]
+a=[2,3,3,4,5,6]
 
 inv=sort(a,0,len(a))
 
