@@ -27,16 +27,16 @@ def bts(item,value):
 
 
 
-ti0=TreeItem(55,'ti0')
-ti1=TreeItem(30,'ti1')
-ti2=TreeItem(20,'ti2')
-ti3=TreeItem(62,'ti3')
-ti4=TreeItem(57,'ti4')
-ti5=TreeItem(50,'ti5')
-ti6=TreeItem(81,'ti6')
-ti7=TreeItem(7,'ti7')
-ti8=TreeItem(1,'ti8')
-ti9=TreeItem(25,'ti9')
+ti0=BinaryTreeItem(55,'ti0')
+ti1=BinaryTreeItem(30,'ti1')
+ti2=BinaryTreeItem(20,'ti2')
+ti3=BinaryTreeItem(62,'ti3')
+ti4=BinaryTreeItem(57,'ti4')
+ti5=BinaryTreeItem(50,'ti5')
+ti6=BinaryTreeItem(81,'ti6')
+ti7=BinaryTreeItem(7,'ti7')
+ti8=BinaryTreeItem(1,'ti8')
+ti9=BinaryTreeItem(25,'ti9')
 
 
 ti0.leftItem=ti1    # 55>30
