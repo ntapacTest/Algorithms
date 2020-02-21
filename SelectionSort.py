@@ -1,10 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Feb  8 11:45:11 2020
-
-@author: nia
-"""
 
 a=[3,23,4,1,3,4,6,87,9,3,2,4,4,63,78,3,34,56,3,4,1]
 
